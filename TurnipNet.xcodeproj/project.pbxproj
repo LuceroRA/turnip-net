@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE3FFC025360E4D0040E856 /* TurnipNetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFBF25360E4D0040E856 /* TurnipNetApp.swift */; };
+		4DE3FFC225360E4D0040E856 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFC125360E4D0040E856 /* ContentView.swift */; };
+		4DE3FFC425360E500040E856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE3FFC325360E500040E856 /* Assets.xcassets */; };
+		4DE3FFC725360E500040E856 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE3FFC625360E500040E856 /* Preview Assets.xcassets */; };
+		4DE3FFD225360E500040E856 /* TurnipNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFD125360E500040E856 /* TurnipNetTests.swift */; };
+		4DE3FFDD25360E510040E856 /* TurnipNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFDC25360E510040E856 /* TurnipNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DE3FFCE25360E500040E856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE3FFB425360E4C0040E856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE3FFBB25360E4D0040E856;
+			remoteInfo = TurnipNet;
+		};
+		4DE3FFD925360E510040E856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE3FFB425360E4C0040E856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE3FFBB25360E4D0040E856;
+			remoteInfo = TurnipNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DE3FFBC25360E4D0040E856 /* TurnipNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnipNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE3FFBF25360E4D0040E856 /* TurnipNetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnipNetApp.swift; sourceTree = "<group>"; };
+		4DE3FFC125360E4D0040E856 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DE3FFC325360E500040E856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE3FFC625360E500040E856 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DE3FFC825360E500040E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE3FFCD25360E500040E856 /* TurnipNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnipNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE3FFD125360E500040E856 /* TurnipNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnipNetTests.swift; sourceTree = "<group>"; };
+		4DE3FFD325360E500040E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE3FFD825360E510040E856 /* TurnipNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnipNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE3FFDC25360E510040E856 /* TurnipNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnipNetUITests.swift; sourceTree = "<group>"; };
+		4DE3FFDE25360E510040E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE3FFB925360E4D0040E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFCA25360E500040E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFD525360E510040E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE3FFB325360E4C0040E856 = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFBE25360E4D0040E856 /* TurnipNet */,
+				4DE3FFD025360E500040E856 /* TurnipNetTests */,
+				4DE3FFDB25360E510040E856 /* TurnipNetUITests */,
+				4DE3FFBD25360E4D0040E856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE3FFBD25360E4D0040E856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFBC25360E4D0040E856 /* TurnipNet.app */,
+				4DE3FFCD25360E500040E856 /* TurnipNetTests.xctest */,
+				4DE3FFD825360E510040E856 /* TurnipNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE3FFBE25360E4D0040E856 /* TurnipNet */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFBF25360E4D0040E856 /* TurnipNetApp.swift */,
+				4DE3FFC125360E4D0040E856 /* ContentView.swift */,
+				4DE3FFC325360E500040E856 /* Assets.xcassets */,
+				4DE3FFC825360E500040E856 /* Info.plist */,
+				4DE3FFC525360E500040E856 /* Preview Content */,
+			);
+			path = TurnipNet;
+			sourceTree = "<group>";
+		};
+		4DE3FFC525360E500040E856 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFC625360E500040E856 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DE3FFD025360E500040E856 /* TurnipNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFD125360E500040E856 /* TurnipNetTests.swift */,
+				4DE3FFD325360E500040E856 /* Info.plist */,
+			);
+			path = TurnipNetTests;
+			sourceTree = "<group>";
+		};
+		4DE3FFDB25360E510040E856 /* TurnipNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFDC25360E510040E856 /* TurnipNetUITests.swift */,
+				4DE3FFDE25360E510040E856 /* Info.plist */,
+			);
+			path = TurnipNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE3FFBB25360E4D0040E856 /* TurnipNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE3FFE125360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNet" */;
+			buildPhases = (
+				4DE3FFB825360E4D0040E856 /* Sources */,
+				4DE3FFB925360E4D0040E856 /* Frameworks */,
+				4DE3FFBA25360E4D0040E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnipNet;
+			productName = TurnipNet;
+			productReference = 4DE3FFBC25360E4D0040E856 /* TurnipNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DE3FFCC25360E500040E856 /* TurnipNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE3FFE425360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNetTests" */;
+			buildPhases = (
+				4DE3FFC925360E500040E856 /* Sources */,
+				4DE3FFCA25360E500040E856 /* Frameworks */,
+				4DE3FFCB25360E500040E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE3FFCF25360E500040E856 /* PBXTargetDependency */,
+			);
+			name = TurnipNetTests;
+			productName = TurnipNetTests;
+			productReference = 4DE3FFCD25360E500040E856 /* TurnipNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DE3FFD725360E510040E856 /* TurnipNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE3FFE725360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNetUITests" */;
+			buildPhases = (
+				4DE3FFD425360E510040E856 /* Sources */,
+				4DE3FFD525360E510040E856 /* Frameworks */,
+				4DE3FFD625360E510040E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE3FFDA25360E510040E856 /* PBXTargetDependency */,
+			);
+			name = TurnipNetUITests;
+			productName = TurnipNetUITests;
+			productReference = 4DE3FFD825360E510040E856 /* TurnipNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE3FFB425360E4C0040E856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4DE3FFBB25360E4D0040E856 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4DE3FFCC25360E500040E856 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DE3FFBB25360E4D0040E856;
+					};
+					4DE3FFD725360E510040E856 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DE3FFBB25360E4D0040E856;
+					};
+				};
+			};
+			buildConfigurationList = 4DE3FFB725360E4C0040E856 /* Build configuration list for PBXProject "TurnipNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE3FFB325360E4C0040E856;
+			productRefGroup = 4DE3FFBD25360E4D0040E856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE3FFBB25360E4D0040E856 /* TurnipNet */,
+				4DE3FFCC25360E500040E856 /* TurnipNetTests */,
+				4DE3FFD725360E510040E856 /* TurnipNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE3FFBA25360E4D0040E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE3FFC725360E500040E856 /* Preview Assets.xcassets in Resources */,
+				4DE3FFC425360E500040E856 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFCB25360E500040E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFD625360E510040E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE3FFB825360E4D0040E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE3FFC225360E4D0040E856 /* ContentView.swift in Sources */,
+				4DE3FFC025360E4D0040E856 /* TurnipNetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFC925360E500040E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE3FFD225360E500040E856 /* TurnipNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE3FFD425360E510040E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE3FFDD25360E510040E856 /* TurnipNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE3FFCF25360E500040E856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE3FFBB25360E4D0040E856 /* TurnipNet */;
+			targetProxy = 4DE3FFCE25360E500040E856 /* PBXContainerItemProxy */;
+		};
+		4DE3FFDA25360E510040E856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE3FFBB25360E4D0040E856 /* TurnipNet */;
+			targetProxy = 4DE3FFD925360E510040E856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DE3FFDF25360E510040E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DE3FFE025360E510040E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE3FFE225360E510040E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TurnipNet/Preview Content\"";
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TurnipNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE3FFE325360E510040E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TurnipNet/Preview Content\"";
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TurnipNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DE3FFE525360E510040E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				INFOPLIST_FILE = TurnipNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnipNet.app/TurnipNet";
+			};
+			name = Debug;
+		};
+		4DE3FFE625360E510040E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				INFOPLIST_FILE = TurnipNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnipNet.app/TurnipNet";
+			};
+			name = Release;
+		};
+		4DE3FFE825360E510040E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				INFOPLIST_FILE = TurnipNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurnipNet;
+			};
+			name = Debug;
+		};
+		4DE3FFE925360E510040E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF9HLNP3FT;
+				INFOPLIST_FILE = TurnipNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucero.TurnipNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurnipNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE3FFB725360E4C0040E856 /* Build configuration list for PBXProject "TurnipNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE3FFDF25360E510040E856 /* Debug */,
+				4DE3FFE025360E510040E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE3FFE125360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE3FFE225360E510040E856 /* Debug */,
+				4DE3FFE325360E510040E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE3FFE425360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE3FFE525360E510040E856 /* Debug */,
+				4DE3FFE625360E510040E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE3FFE725360E510040E856 /* Build configuration list for PBXNativeTarget "TurnipNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE3FFE825360E510040E856 /* Debug */,
+				4DE3FFE925360E510040E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE3FFB425360E4C0040E856 /* Project object */;
+}
