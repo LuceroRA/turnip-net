@@ -13,6 +13,7 @@
 		4DE3FFC725360E500040E856 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE3FFC625360E500040E856 /* Preview Assets.xcassets */; };
 		4DE3FFD225360E500040E856 /* TurnipNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFD125360E500040E856 /* TurnipNetTests.swift */; };
 		4DE3FFDD25360E510040E856 /* TurnipNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFDC25360E510040E856 /* TurnipNetUITests.swift */; };
+		4DE3FFF3253613850040E856 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3FFF2253613850040E856 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4DE3FFD825360E510040E856 /* TurnipNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnipNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE3FFDC25360E510040E856 /* TurnipNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnipNetUITests.swift; sourceTree = "<group>"; };
 		4DE3FFDE25360E510040E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE3FFF2253613850040E856 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		4DE3FFBE25360E4D0040E856 /* TurnipNet */ = {
 			isa = PBXGroup;
 			children = (
+				4DE3FFF1253613220040E856 /* NetworkService */,
 				4DE3FFBF25360E4D0040E856 /* TurnipNetApp.swift */,
 				4DE3FFC125360E4D0040E856 /* ContentView.swift */,
 				4DE3FFC325360E500040E856 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				4DE3FFDE25360E510040E856 /* Info.plist */,
 			);
 			path = TurnipNetUITests;
+			sourceTree = "<group>";
+		};
+		4DE3FFF1253613220040E856 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3FFF2253613850040E856 /* APIClient.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				4DE3FFC225360E4D0040E856 /* ContentView.swift in Sources */,
 				4DE3FFC025360E4D0040E856 /* TurnipNetApp.swift in Sources */,
+				4DE3FFF3253613850040E856 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
